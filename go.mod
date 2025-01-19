@@ -2,7 +2,10 @@ module github.com/feynmaz/pkg
 
 go 1.22.10
 
-require github.com/rs/zerolog v1.33.0
+require (
+	github.com/google/uuid v1.6.0
+	github.com/rs/zerolog v1.33.0
+)
 
 require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
