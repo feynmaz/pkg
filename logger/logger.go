@@ -18,7 +18,7 @@ func New() *Logger {
 		NoColor:    true,
 	}
 
-	logger := zerolog.New(output).With().Timestamp().Caller().Logger()
+	logger := zerolog.New(output).With().Timestamp().Logger()
 	return &Logger{logger}
 }
 
